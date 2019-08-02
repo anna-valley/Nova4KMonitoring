@@ -1,0 +1,163 @@
+<html>
+<head>
+	<title>Test...</title>
+
+	<Script src="setup.js">
+
+	</Script>
+	<style>
+
+		#div1
+{
+    width    : 100%;
+    height   : 100%;
+    overflow : hidden;
+    position : relative;
+}
+
+#my-iframe1
+{
+    position : absolute;
+    top      : -100px;
+    left     : -155px;
+    width    : 1920px;
+    height   : 1080px;
+}
+#my-iframe2
+{
+    position : absolute;
+    top      : -100px;
+    left     : -155px;
+    width    : 1920px;
+    height   : 1080px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(270px, 271px);
+}
+
+.wrapperLabel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(40px, 41px);
+}
+
+P { text-align: center }
+
+</style>
+</head>
+<body onLoad="populate();">
+
+	<h1>Nova 4K Remote Monitoring</h1>
+	<div class="wrapper">
+		<div id="div1">
+		<iframe src="http:192.168.0.10/page/panel/index.html" id="my-iframe1" scrolling="no"></iframe>
+		</div>
+
+		<div id="div1">
+		<iframe src="http:192.168.0.11/page/panel/index.html" id="my-iframe1" scrolling="no"></iframe>
+		</div>
+
+		<div id="div1">
+		<iframe src="http:192.168.0.12/page/panel/index.html" id="my-iframe1" scrolling="no"></iframe>
+		</div>
+
+		<div id="div1">
+		<iframe src="http:192.168.0.13/page/panel/index.html" id="my-iframe1" scrolling="no"></iframe>
+		</div>
+	</div>
+
+	<div class="wrapperLabel">
+
+		<div>
+			<p id="label1"></p>
+		</div>
+		<div>
+			<p id="label2"></p>
+		</div>
+		<div>
+			<p id="label3"></p>
+		</div>
+		<div>
+			<p id="label4"></p>
+		</div>
+	</div>
+
+	<div class="wrapper">
+
+		<div id="div1">
+		<iframe src="http:192.168.0.14/page/panel/index.html" id="my-iframe1" scrolling="no"></iframe>
+		</div>
+
+		<div id="div1">
+		<iframe src="http:192.168.0.15/page/panel/index.html" id="my-iframe1" scrolling="no"></iframe>
+		</div>
+
+		<div id="div1">
+		<iframe src="http:192.168.0.16/page/panel/index.html" id="my-iframe1" scrolling="no"></iframe>
+		</div>
+
+		<div id="div1">
+		<iframe src="http:192.168.0.17/page/panel/index.html" id="my-iframe1" scrolling="no"></iframe>
+		</div>
+
+		</div>
+
+	<div class="wrapperLabel">
+
+		<div>
+			<p id="label5"></p>
+		</div>
+		<div>
+			<p id="label6"></p>
+		</div>
+		<div>
+			<p id="label7"></p>
+		</div>
+		<div>
+			<p id="label8"></p>
+		</div>
+
+	</div>
+
+	<div class="wrapper">
+
+		<div id="div1">
+		<iframe src="http:192.168.0.18/page/panel/index.html" id="my-iframe1" scrolling="no"></iframe>
+		</div>
+
+		<div id="div1">
+		<iframe src="http:192.168.0.19/page/panel/index.html" id="my-iframe1" scrolling="no"></iframe>
+		</div>
+
+		<div id="div1">
+		<iframe src="http:192.168.0.20/page/panel/index.html" id="my-iframe1" scrolling="no"></iframe>
+		</div>
+
+		<div id="div1">
+		<iframe src="http:192.168.0.21/page/panel/index.html" id="my-iframe1" scrolling="no"></iframe>
+		</div>
+
+	</div>
+
+	<div class="wrapperLabel">
+
+		<div>
+			<p id="label9"></p>
+		</div>
+		<div>
+			<p id="label10"></p>
+		</div>
+		<div>
+			<p id="label11"></p>
+		</div>
+		<div>
+			<p id="label12"></p>
+		</div>
+	</div>
+			
+
+</body>
+</html>
